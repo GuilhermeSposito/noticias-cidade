@@ -1,0 +1,244 @@
+body{   margin: 0;
+        padding:0;
+        background: url(fundo.png) repeat-x;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif'
+        
+
+}
+
+#conteiner{
+            width: 750px;
+            
+    height: 200px;
+            margin: 0 auto;
+
+
+}
+
+#topo {
+        background: url('detalhe-topo.png') no-repeat right top;
+        height: 175px;
+        top: 0;
+}
+
+
+.logo{
+        background: url('logo.png') no-repeat;
+        width: 153px;
+        height: 75px;
+        text-indent: -3000px;
+        
+
+}
+
+ul {    
+        list-style-type: none;
+        margin:0;
+        padding: 0;
+        background-color:  #b10333;
+        float: left;
+
+}
+
+ul li{
+        
+        float: left;
+        font-size: 20px;
+        
+
+}
+
+ul a{
+        font-size: 19px;
+        text-decoration: none;
+        line-height: 39px;
+        display: block;
+        padding: 0 0.7em;
+        color: #fff;
+        background:url('./imagens/divisor.png') repeat-y ;
+
+}
+
+ul a:hover{
+
+    color: #acacac;
+    background-color: #490518;
+
+
+
+
+}
+
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.body #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencias #navegacao a#ciencias,
+body.fotos #navegacao a#fotos{
+
+        color: #fff;
+        background: #de003e;
+
+}
+
+
+
+@media(max-width: 728px){
+
+
+        #conteiner{
+
+                width: 100%;
+
+        }
+
+        #topo ul {
+              margin-top: 130px;
+                
+
+        }
+
+        #topo ul a{
+                        font-size: 1.2em;
+                        
+
+        }
+
+
+        #conteiner-site{
+                clear: both;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+                align-items: center;
+               
+                
+
+        }
+
+        #lateral{
+                margin: 0;
+                padding: 0 0 1px 0;
+                width: 100%;
+                float:left;
+                top:0;
+
+        }
+
+        #primeiro{
+                margin: 0;
+                padding:0;
+                width: 100%;
+                float: left;
+        }
+
+        #segundo{
+                width: 100%;
+
+        }
+
+        #lateral  .caixa1{
+                width: 100%;
+                
+        }
+
+        #lateral ul li {
+                padding-left: 25%;
+
+        }
+
+      .email-conteudo{
+                padding-left: 25%;
+        
+
+      }
+
+
+      .conteudo-rodape{
+                width: 100%;
+        font-size: 14px;
+      }
+     
+}
+
+@media(max-width: 480px){
+
+
+        #conteiner{
+
+                width: 100%;
+
+        }
+
+        #topo ul {
+                margin: 130px 0 0 20px;
+
+
+        }
+
+        #topo ul a{
+                        font-size: 62%;
+                        
+
+        }
+
+
+        #conteiner-site{
+                clear: both;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+                align-items: center;
+               
+                
+
+        }
+
+        #lateral{
+                margin: 0;
+                padding: 0 0 1px 0;
+                width: 100%;
+                float:left;
+                top:0;
+
+        }
+
+        #primeiro{
+                margin: 0;
+                padding:0;
+                width: 100%;
+                float: left;
+        }
+
+        #segundo{
+                width: 100%;
+
+        }
+
+        #lateral  .caixa1{
+                width: 100%;
+                
+        }
+
+        #lateral ul li {
+                padding-left: 25%;
+
+        }
+
+      .email-conteudo{
+                padding-left: 25%;
+        
+
+      }
+
+
+      .conteudo-rodape{
+                width: 100%;
+        font-size: 14px;
+      }
+     
+}

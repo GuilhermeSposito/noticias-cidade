@@ -1,0 +1,253 @@
+
+body{
+        background: url('./imagens/fundo.png') repeat-x;
+        margin: 0;
+        
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif'
+    
+    }
+
+    
+
+#conteiner {
+
+            
+            width: 750px;
+           
+            margin: 0 auto;
+
+}
+
+#topo{
+        height: 175px; 
+        background: url('detalhe-topo.png') no-repeat right top;
+        padding-top: 25x;
+     
+
+
+
+}
+
+.logo{
+        text-indent: -3000px;
+        background: url('logo.png') no-repeat ;
+        width: 155px;
+        height: 70px;
+        
+
+}
+
+ul{ 
+        margin:0;
+        padding: 0;
+        list-style-type: none;
+        float: left;
+        background-color:  #b10333;
+
+}
+
+ul li{
+
+    float:left ;
+    font-size: 20px;
+
+}
+
+ul a{   font-size: 19px;
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        background: url('./imagens/divisor.png') repeat-y;
+        padding: 0 0.7em;
+        line-height: 40px;
+
+}
+
+ul .primeira a{
+    background: none;
+
+}
+
+ul a:hover {
+
+    color: #acacac;
+    background-color: #490518;
+
+
+
+
+}
+
+
+body.home #navegacao a#home,
+body.body #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencias #navegacao a#ciencias,
+body.fotos #navegacao a#fotos{
+
+        color: #fff;
+        background: #de003e;
+
+}
+
+
+
+@media(max-width: 728px){
+
+
+        #conteiner{
+
+                width: 100%;
+
+        }
+
+        #topo ul {
+              margin-top: 130px;
+                
+
+        }
+
+        #topo ul a{
+                        font-size: 1.2em;
+                        
+
+        }
+
+
+        #conteiner-site{
+                clear: both;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+                align-items: center;
+               
+                
+
+        }
+
+        #lateral{
+                margin: 0;
+                padding: 0 0 1px 0;
+                width: 100%;
+                float:left;
+                top:0;
+
+        }
+
+        #primeiro{
+                margin: 0;
+                padding:0;
+                width: 100%;
+                float: left;
+        }
+
+        #segundo{
+                width: 100%;
+
+        }
+
+        #lateral  .caixa1{
+                width: 100%;
+                
+        }
+
+        #lateral ul li {
+                padding-left: 25%;
+
+        }
+
+      .email-conteudo{
+                padding-left: 25%;
+        
+
+      }
+
+
+      .conteudo-rodape{
+                width: 100%;
+        font-size: 14px;
+      }
+     
+}
+
+@media(max-width: 480px){
+
+
+        #conteiner{
+
+                width: 100%;
+
+        }
+
+        #topo ul {
+                margin: 130px 0 0 20px;
+
+
+        }
+
+        #topo ul a{
+                        font-size: 12px;
+                        
+
+        }
+
+
+        #conteiner-site{
+                clear: both;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+                align-items: center;
+               
+                
+
+        }
+
+        #lateral{
+                margin: 0;
+                padding: 0 0 1px 0;
+                width: 100%;
+                float:left;
+                top:0;
+
+        }
+
+        #primeiro{
+                margin: 0;
+                padding:0;
+                width: 100%;
+                float: left;
+        }
+
+        #segundo{
+                width: 100%;
+
+        }
+
+        #lateral  .caixa1{
+                width: 100%;
+                
+        }
+
+        #lateral ul li {
+                padding-left: 25%;
+
+        }
+
+      .email-conteudo{
+                padding-left: 25%;
+        
+
+      }
+
+
+      .conteudo-rodape{
+                width: 100%;
+        font-size: 14px;
+      }
+     
+}

@@ -1,0 +1,548 @@
+*{
+    
+    font-style: none;
+    text-decoration: none;
+   font-family: 'Trebuchet MS' , sans-serif;
+   padding: 0;
+   margin: 0;
+ 
+}   
+
+body{
+        background: url("fundo.png")  repeat-x;
+       
+        font-family: 'Trebuchet MS', 'sans-serif';
+}
+
+
+#conteiner{
+            width:750px;
+           
+        
+            margin: 0 auto;
+
+
+
+}
+
+#topo{
+        height: 175px;
+        background: url("detalhe-topo.png") no-repeat right top;
+           padding-top: 25px;
+
+}
+
+.logo{
+        width: 152px;
+        height: 70px;
+        background: url("logo.png") no-repeat ;
+        text-indent: -3000px;
+
+}
+
+ul{
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+
+
+}
+
+
+#topo ul{     
+       margin-top: 28px;
+        padding: 0;
+        list-style-type: none;
+        float: left;
+       
+        background-color: #b10333;
+}
+
+#topo ul li {
+                float: left;
+               
+
+}
+
+#topo ul a {
+        font-size: 19px;
+        display: block;
+        line-height: 40px;
+        padding: 0 0.7em;     
+            color: #fff;
+            background: url('./imagens/divisor.png') repeat-y;
+        
+
+}
+
+#topo .primeira a{
+        background: none;
+
+}
+
+#topo  ul a:hover{
+
+        background-color: #490518;
+        color: #acacac;
+
+
+
+}
+
+
+body.body #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencias #navegacao a#ciencias,
+body.fotos #navegacao a#fotos{
+
+        color: #fff;
+        background: #de003e;
+
+}
+
+
+
+#conteiner-site{
+                width: 750px;
+                margin-top: 60px;
+                margin: 60px auto;
+
+}
+
+#primeiro{
+        float: left;
+        width: 270px;
+        margin: 0 0 20px 195px;
+        background: url('./imagens/fundo-caixa.png');
+}
+
+#segundo{
+                float: left;
+                width: 270px;
+                background: url('imagens/fundo-caixa.png');
+                margin: 0 0 20px 15px;
+
+
+
+}
+
+#lateral{
+                float: left;
+                width: 180px;
+               background: url('./imagens/fundo-caixa.png');
+                margin: 0 0 0 -750px;
+
+
+}
+
+h2{
+        background-color: #294c71;
+        color: #fff;
+        font-size: 25px;
+        padding: 0 0 0 5px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+
+
+}
+
+ #primeiro .caixa h3{
+        text-transform: uppercase;
+        background-color: #b10333;
+        color: white;
+        font-size: 19px;
+        padding: 2px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+
+}
+
+
+#caixa1 .caixa-conteudo li{
+
+height: 80px;
+padding: 2px;
+border-bottom: solid 5px #ccc;
+
+}
+
+#caixa1 .smallimage{
+        float: left;
+        margin-right: 5px;
+      
+}
+
+.caixa-conteudo li a p{
+
+        color: rgb(32, 32, 32);
+        font-size: 15px;
+}
+
+.caixa-conteudo li a h3{
+        color:#294c71;
+        font-size: 19px;
+
+}
+
+.caixa-conteudo li:hover {
+
+        background-color: #ccc;
+
+}
+
+
+
+
+#segundo .conteudo-primeiro h3{
+        text-transform: uppercase;
+        background-color: #b10333;
+        color: white;
+        font-size: 19px;
+        padding: 2px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+}
+
+#caixa2 .caixa-conteudo2 li{
+
+        height: 100px;
+        border-bottom: solid 5px #ccc;
+
+
+
+}
+
+
+#caixa2 .caixa-conteudo2 li:hover{
+
+        background-color: #ccc;
+
+
+
+}
+
+
+#caixa2 .smallimage{ 
+
+        float: left;
+        margin-right: 5px;
+
+}
+
+#caixa2 li a{
+                font-size: 16px;
+                color: #272727;
+
+
+}
+
+#caixa2 li h3{
+
+                color: #294c71;
+                font-size: 19px;
+
+
+}
+
+
+
+#lateral .caixa1{
+       width: 170px;
+       padding: 5px;
+                
+
+
+}
+
+#lateral .caixa1 ul{
+                list-style-type: none;
+                padding: 0  0  0 5px;
+                margin: 0 ;
+                background-color: #f3f3f3;
+                
+
+}
+
+#lateral .caixa1 ul a{
+                color: #000;
+                display: block ;
+                line-height: 36px;
+                padding: 3px ;
+                font-size: 17px;
+                border-bottom: 1px solid #f3f3f3;
+
+
+
+}
+
+#lateral .caixa1 ul a:hover{
+                
+        color:rgb(116, 115, 115);
+        background: url(./imagens/marcador.png) no-repeat left center;
+        padding-left: 20px;
+}
+
+
+
+
+
+
+
+#conteiner-rodape{
+             
+                clear: both;
+                background: #294c71;
+                padding: 20px;
+             
+                
+                
+
+
+}
+
+.conteudo-rodape{
+
+                width: 750px;
+                
+                margin: 0 auto;
+                font-size: 25px;
+                color: #fff;
+
+}
+
+
+label{
+        font-size: 25px;
+        color: #000;
+
+
+}
+
+input{
+        width: 125px;
+        display: block;
+        padding: 5px;
+
+
+
+}
+
+input.Cadastrar{
+        color: #fff;
+        background-color: #b10333;
+        border: solid 1px #b10333;
+        padding: 5px;
+        margin-top: 5px;
+        font-size: 15px;
+        font-family: 'Trebuchet MS',  sans-serif;
+}
+
+
+.whatsapp{
+                float: right;
+                cursor: pointer;
+        margin-right: 10px;
+
+}
+
+.insta{
+         float: right;
+         cursor: pointer;
+        margin-right: 10px;
+
+}
+
+.insta:hover{
+        background: url('whatsapp.png');
+
+}
+.face{
+        float: right;
+        cursor: pointer;
+        margin-right: 10px;
+
+}
+
+.maps{
+        float: right;
+        cursor: pointer;
+       margin-right: 10px;
+
+}
+
+.phone {
+        float: right;
+        cursor: pointer;
+       margin-right: 5px;
+
+}
+
+.redes{
+        float: right ;
+        
+}
+
+
+@media(max-width: 728px){
+
+
+        #conteiner{
+
+                width: 100%;
+
+        }
+
+        #topo ul {
+              margin-top: 130px;
+                
+
+        }
+
+        #topo ul a{
+                        font-size: 1.2em;
+                        
+
+        }
+
+
+        #conteiner-site{
+                clear: both;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+                align-items: center;
+               
+                
+
+        }
+
+        #lateral{
+                margin: 0;
+                padding: 0 0 1px 0;
+                width: 100%;
+                float:left;
+                top:0;
+
+        }
+
+        #primeiro{
+                margin: 0;
+                padding:0;
+                width: 100%;
+                float: left;
+        }
+
+        #segundo{
+                width: 100%;
+
+        }
+
+        #lateral  .caixa1{
+                width: 100%;
+                
+        }
+
+        #lateral ul li {
+                padding-left: 25%;
+
+        }
+
+      .email-conteudo{
+                padding-left: 25%;
+        
+
+      }
+
+
+      .conteudo-rodape{
+                width: 100%;
+        font-size: 14px;
+      }
+     
+}
+
+@media(max-width: 480px){
+
+
+        #conteiner{
+
+                width: 100%;
+
+        }
+
+        #topo ul {
+                margin-top: 130px 0 0 0;
+
+
+        }
+
+        #topo ul a{
+                        font-size: 12px;
+                        
+
+        }
+
+
+        #conteiner-site{
+                clear: both;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+                align-items: center;
+               
+                
+
+        }
+
+        #lateral{
+                margin: 0;
+                padding: 0 0 1px 0;
+                width: 100%;
+                float:left;
+                top:0;
+
+        }
+
+        #primeiro{
+                margin: 0;
+                padding:0;
+                width: 100%;
+                float: left;
+        }
+
+        #segundo{
+                width: 100%;
+
+        }
+
+        #lateral  .caixa1{
+                width: 100%;
+                
+        }
+
+        #lateral ul li {
+                padding-left: 25%;
+
+        }
+
+      .email-conteudo{
+                padding-left: 25%;
+        
+
+      }
+
+
+      .conteudo-rodape{
+                width: 100%;
+        font-size: 14px;
+      }
+     
+}

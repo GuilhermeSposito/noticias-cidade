@@ -1,0 +1,249 @@
+body{
+        margin: 0;
+        padding: 0;
+        background: url('fundo.png') repeat-x;
+
+}
+
+
+#conteiner{
+
+        width: 750px;
+        margin: 0 auto;
+
+
+}
+
+#topo{
+        background: url('detalhe-topo.png') no-repeat right top;
+        height: 175px;
+
+
+}
+
+.logo{
+        background: url('logo.png') no-repeat;
+        width: 152px;
+        height: 65px;
+        text-indent: -3000px;
+
+
+}
+
+#topo ul{
+
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color:  #b10333;
+        float: left;
+
+}
+
+
+#topo ul li{
+        float: left;
+
+
+}
+
+#topo ul a{
+
+        display: block;
+        padding: 0 0.6em;
+        text-decoration: none;
+        color: #fff;
+        font-size: 19px;
+        line-height: 40px;
+        background: url('./imagens/divisor.png') repeat-y;
+
+
+}
+
+#topo ul .primeira a{
+
+    background-image: none;
+
+
+}
+
+#topo ul a:hover{
+
+    
+    background-color: #490518;
+    color: #acacac;
+
+
+
+}
+
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.body #navegacao a#saude,
+body.ciencias #navegacao a#ciencias,
+body.fotos #navegacao a#fotos{
+
+        color: #fff;
+        background: #de003e;
+
+}
+
+
+@media(max-width: 728px){
+
+
+        #conteiner{
+
+                width: 100%;
+
+        }
+
+        #topo ul {
+              margin-top: 130px;
+                
+
+        }
+
+        #topo ul a{
+                        font-size: 1.2em;
+                        
+
+        }
+
+
+        #conteiner-site{
+                clear: both;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+                align-items: center;
+               
+                
+
+        }
+
+        #lateral{
+                margin: 0;
+                padding: 0 0 1px 0;
+                width: 100%;
+                float:left;
+                top:0;
+
+        }
+
+        #primeiro{
+                margin: 0;
+                padding:0;
+                width: 100%;
+                float: left;
+        }
+
+        #segundo{
+                width: 100%;
+
+        }
+
+        #lateral  .caixa1{
+                width: 100%;
+                
+        }
+
+        #lateral ul li {
+                padding-left: 25%;
+
+        }
+
+      .email-conteudo{
+                padding-left: 25%;
+        
+
+      }
+
+
+      .conteudo-rodape{
+                width: 100%;
+        font-size: 14px;
+      }
+     
+}
+
+@media(max-width: 480px){
+
+
+        #conteiner{
+
+                width: 100%;
+
+        }
+
+        #topo ul {
+               margin: 130px 0 0 20px;
+        }
+
+        #topo ul a{
+                        font-size: 12px;
+                        
+
+        }
+
+
+        #conteiner-site{
+                clear: both;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+                align-items: center;
+               
+                
+
+        }
+
+        #lateral{
+                margin: 0;
+                padding: 0 0 1px 0;
+                width: 100%;
+                float:left;
+                top:0;
+
+        }
+
+        #primeiro{
+                margin: 0;
+                padding:0;
+                width: 100%;
+                float: left;
+        }
+
+        #segundo{
+                width: 100%;
+
+        }
+
+        #lateral  .caixa1{
+                width: 100%;
+                
+        }
+
+        #lateral ul li {
+                padding-left: 25%;
+
+        }
+
+      .email-conteudo{
+                padding-left: 25%;
+        
+
+      }
+
+
+      .conteudo-rodape{
+                width: 100%;
+        font-size: 14px;
+      }
+     
+}
